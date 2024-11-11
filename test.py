@@ -23,13 +23,13 @@ class TestCalculator(unittest.TestCase):
     def test_pow(self):
         # Test addition functionality
         result = self.calc.pow(2, 3)
-        self.assertEqual(result, 20)
+        self.assertEqual(result, 8)
         
         result = self.calc.pow(1, 5)
-        self.assertEqual(result, 5)
+        self.assertEqual(result, 1)
         
         result = self.calc.pow(-4, 3)
-        self.assertEqual(result, -5)    
+        self.assertEqual(result, -64)    
 
     def test_subtract(self):
         # Test subtraction functionality
